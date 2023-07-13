@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_create_new_folder_24"
+        android:title="Home"
+        app:showAsAction="collapseActionView"/>
+
+    <item android:id="@+id/me"
+        android:icon="@drawable/ic_baseline_open_in_browser_24"
+        android:title="Me"
+        app:showAsAction="collapseActionView"/>
+
+    <item android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_create_new_folder_24"
+        android:title="Search"
+        app:showAsAction="collapseActionView"/>
+
+
+</menu>

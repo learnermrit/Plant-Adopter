@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Minor project</string>
+    <string name="title_activity_gmappp">Gmappp</string>
+
+    <string name="google_map" templateMergeStrategy="preserve" translatable="false">AIzaSyC0YynhfxpUZf9v4cl4Ls0np3nyEE3zU2M</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">click_to_register</string>
+
+</resources>

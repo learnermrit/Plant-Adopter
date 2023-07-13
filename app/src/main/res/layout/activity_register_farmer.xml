@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:text="Adopter" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Name"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="30dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            android:hint="@string/email"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginBottom="30dp"
+            android:layout_height="wrap_content"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:hint="@string/password"
+            android:layout_marginHorizontal="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- <EditText
+         android:id="@+id/username"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:inputType="text"
+         android:hint="Email"
+         android:textSize="20dp"
+         android:layout_marginHorizontal="40dp"
+         android:layout_marginBottom="30dp"
+
+         />
+     <EditText
+         android:id="@+id/pass"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:inputType="text"
+         android:hint="Password"
+         android:textSize="20dp"
+         android:layout_marginHorizontal="40dp"
+         android:layout_marginBottom="30dp"
+         />-->
+
+    <EditText
+        android:id="@+id/rpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Rewrite Password"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="40dp"
+        />
+    <!--android:layout_marginBottom="30dp"-->
+
+
+    <EditText
+        android:id="@+id/adhar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Adhar No"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="40dp"
+        />
+    <!--android:layout_marginBottom="30dp"-->
+
+
+    <EditText
+        android:id="@+id/pan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="PAN No"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="40dp"
+        />
+    <!-- android:layout_marginBottom="30dp"-->
+
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Contact"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="40dp"
+        />
+    <!-- android:layout_marginBottom="30dp"-->
+
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Address"
+        android:textSize="20dp"
+        android:layout_marginHorizontal="40dp"
+        />
+    <!-- android:layout_marginBottom="30dp"-->
+
+
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_register"
+        android:text="@string/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#78C257"
+
+        />
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/loginNow"
+        android:text="@string/click_to_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+</LinearLayout>
